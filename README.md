@@ -12,13 +12,11 @@ This project demonstrates how **linear regression** combined with **Fourier feat
 
 -   The **sine-cosine form** of Fourier series is used to replace raw pixel values with frequency-based features.
 -   Each sample corresponds to a specific frequency of the wave, and a linear regression model learns the **amplitudes** of these frequencies.
--   Fourier series equation (sine-cosine form):
+-   Fourier series equation (sine-cosine form)
 
-$$
-s_{_N}(x) = C_0 + \sum_{n=1}^N \left(
-A_n \cos \left(2 \pi \tfrac{n}{P} x \right) +
-B_n \sin \left(2 \pi \tfrac{n}{P} x  \right) \right)
-$$
+<p align="center">
+  <img src="images/fourier_equation_latex.png" alt="Fourier series equation"/>
+</p>
 
 ## Results
 
